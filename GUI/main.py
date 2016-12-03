@@ -43,7 +43,7 @@ class GUI(Widget):
 
         #mainbutton = Button(text='Topics', size_hint=(None, None))   
        
-        dropdown = DropDown()
+        self.dropdown = DropDown()
         for topic in config_data[0]["topics"]:
             # when adding widgets, we need to specify the height manually (disabling
             # the size_hint_y) so the dropdown can calculate the area it needs.
@@ -52,13 +52,13 @@ class GUI(Widget):
             # for each button, attach a callback that will call the select() method
             # on the dropdown. We'll pass the text of the button as the data of the
             # selection.
-            btn.bind(on_release=lambda btn: dropdown.select(btn.text))
+            btn.bind(on_release=lambda btn: self.dropdown.select(btn.text))
 
             # then add the button inside the dropdown
-            dropdown.add_widget(btn)   
+            self.dropdown.add_widget(btn)   
 
-        self.topic_menu.bind(on_release=dropdown.open)
-        dropdown.bind(on_select=lambda instance, x: setattr(self.topic_menu, 'text', x))
+        self.topic_menu.bind(on_release=self.dropdown.open)
+        self.dropdown.bind(on_select=lambda instance, x: setattr(self.topic_menu, 'text', x))
     
     def addPersuadeeCount(self):
         self.persuadee_count.multiline=False
