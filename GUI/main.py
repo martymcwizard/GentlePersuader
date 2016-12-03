@@ -15,14 +15,19 @@ def on_enter(instance):
 def on_text(instance, value):
     print('The widget', instance, 'have:', value)
 
+def on_slider_value_change(instance, value):
+    print('The slider has value %f' % value)
+
 class GUI(Widget):
     topic_menu = ObjectProperty(None)
     persuadee_count = ObjectProperty(None)
-
+    sentiment_scroll = ObjectProperty(None)
+    
     def __init__(self, **kwargs):
         super(GUI, self).__init__(**kwargs)
         self.addTopicDropDown()
         self.addPersuadeeCount()
+        self.addSentimentScroll()
         #self.topic_menu = TopicDropDown().menu
         #self.add_widget(self.topic_menu)
 
@@ -60,6 +65,11 @@ class GUI(Widget):
         self.persuadee_count.bind(text=on_text)    
         self.persuadee_count.bind(on_text_validate=on_enter)
 
+    def addSentimentScroll(self):
+        self.sentiment_scroll.min=0
+        self.sentiment_scroll.max=1
+        self.sentiment_scroll.value=0.5
+        self.sentiment_scroll.bind(value=on_slider_value_change)
 
 class GentlePersuaderApp(App):    
     

@@ -4,6 +4,7 @@
 <GUI>:
     topic_menu: topic_button
     persuadee_count: persuadee_textinput
+    sentiment_scroll: sentiment_slider
 
     canvas:
         Rectangle:
@@ -32,3 +33,22 @@
         size: (100,50)
         center_x: root.width/2 + 300
         top: root.top - 165
+
+    Label:
+        font_size: 30
+        center_x: root.width/2 - 280    
+        top: root.top - 250
+        text: 'Sentiment Score'
+
+    Slider:
+        id: sentiment_slider
+        width: '250dp'
+        center_x: root.width/2 + 75 
+        top: root.top - 250
+        on_value: sentiment_slider.value = self.value
+
+    Label:
+        font_size: 30
+        center_x: root.width/2 + 350
+        top: root.top - 250
+        text: str("{0:.3f}".format(sentiment_slider.value)) 
