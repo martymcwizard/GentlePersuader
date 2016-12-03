@@ -1,10 +1,34 @@
 #:kivy 1.0.9
 
-<MainButton>:
-    menu: dropdown_menu 
+
+<GUI>:
+    topic_menu: topic_button
+    persuadee_count: persuadee_textinput
+
+    canvas:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: "Background.jpg"
+         
+
     Button:
-        id: dropdown_menu
-        size: self.texture_size
+        id: topic_button
+        font_size: 50
+        size: (800,100)
         center_x: root.width/2
         top: root.top - 30
         text: 'Topics'
+         
+    Label:
+        font_size: 30
+        center_x: root.width/2 - 100 
+        top: root.top - 150 
+        text: 'How many people do you want to persuade?' 
+
+    TextInput:
+        id: persuadee_textinput
+        font_size: 30 
+        size: (100,50)
+        center_x: root.width/2 + 300
+        top: root.top - 165
