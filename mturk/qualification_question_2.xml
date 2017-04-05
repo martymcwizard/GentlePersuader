@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Overview>
+    <Title>Select the correct response for each question below.</Title>
+    <Text>You must answer all questions correctly to earn qualification.  You have only 2 minutes to complete the test.</Text>
+  </Overview>
+  <Question>
+    <QuestionIdentifier>acquiescence</QuestionIdentifier>
+    <DisplayName>Acquiescence</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What does 'acquiescence' mean?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>A</SelectionIdentifier>
+            <Text>Engaged in deep or serious thought</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>B</SelectionIdentifier>
+            <Text>Fear that something bad or unpleasant will happen</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>C</SelectionIdentifier>
+            <Text>A state of extreme fear, making someone unable to move</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>D</SelectionIdentifier>
+            <Text>Agreement or consent by silence or without objection</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>apprehension</QuestionIdentifier>
+    <DisplayName>Apprehension</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What does 'apprehension' mean?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>A</SelectionIdentifier>
+            <Text>Willingness to obey others unquestioningly</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>B</SelectionIdentifier>
+            <Text>Engaged in deep or serious thought</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>C</SelectionIdentifier>
+            <Text>A state of extreme fear, making someone unable to move</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>D</SelectionIdentifier>
+            <Text>Fear that something bad or unpleasant will happen</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>listlessness</QuestionIdentifier>
+    <DisplayName>Listlessness</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What does 'listlessness' mean?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>A</SelectionIdentifier>
+            <Text>Acceptance of all things and events as inevitable</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>B</SelectionIdentifier>
+            <Text>Showing little or no interest in anything</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>C</SelectionIdentifier>
+            <Text>Willingness to obey others unquestioningly</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>D</SelectionIdentifier>
+            <Text>Showing irritation by a gloomy silence</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>subservience</QuestionIdentifier>
+    <DisplayName>Subservience</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What does 'subservience' mean?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>A</SelectionIdentifier>
+            <Text>Willingness to obey others unquestioningly</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>B</SelectionIdentifier>
+            <Text>Great unhappiness and emotional distress</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>C</SelectionIdentifier>
+            <Text>Engaged in deep or serious thought</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>D</SelectionIdentifier>
+            <Text>Fear that something bad or unpleasant will happen</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>pensiveness</QuestionIdentifier>
+    <DisplayName>Pensiveness</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What does 'pensiveness' mean?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>A</SelectionIdentifier>
+            <Text>Acceptance of all things and events as inevitable</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>B</SelectionIdentifier>
+            <Text>Great energy or enthusiasm in pursuit of a cause</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>C</SelectionIdentifier>
+            <Text>Engaged in deep or serious thought</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>D</SelectionIdentifier>
+            <Text>A state of extreme fear, making someone unable to move</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>petrification</QuestionIdentifier>
+    <DisplayName>Petrification</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What does 'petrification' mean?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>A</SelectionIdentifier>
+            <Text>Engaged in deep or serious thought</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>B</SelectionIdentifier>
+            <Text>A state of extreme fear, making someone unable to move</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>C</SelectionIdentifier>
+            <Text>Disbelief in the sincerity of human motives</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>D</SelectionIdentifier>
+            <Text>Showing irritation by a gloomy silence</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>zeal</QuestionIdentifier>
+    <DisplayName>Zeal</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What does 'zeal' mean?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>A</SelectionIdentifier>
+            <Text>Great energy or enthusiasm in pursuit of a cause</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>B</SelectionIdentifier>
+            <Text>Great unhappiness and emotional distress</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>C</SelectionIdentifier>
+            <Text>Showing irritation by a gloomy silence</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>D</SelectionIdentifier>
+            <Text>Agreement or consent by silence or without objection</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+</QuestionForm>
