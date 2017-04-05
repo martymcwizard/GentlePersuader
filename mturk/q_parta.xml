@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Overview>
+    <Title>What does this emoji mean? Choose a label from a short list</Title>
+  <Text></Text>
+  <Binary>
+    <MimeType>
+      <Type>image</Type>
+      <SubType>gif</SubType>
+    </MimeType>
