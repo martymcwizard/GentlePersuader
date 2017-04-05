@@ -1,0 +1,17 @@
+    <AltText>Emoji provided by Twitter Emoji for Everyone http://twitter.github.io/twemoji Copyright (c) 2014 Twitter, Inc and other contributors</AltText>
+  </Binary>
+  <Text></Text>
+  </Overview>
+  <Question>
+    <QuestionIdentifier>category</QuestionIdentifier>
+    <DisplayName>Emoji naming</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>
+        Choose an emotion or choose no match if no emotions fit the emoji meaning.
+      </Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
