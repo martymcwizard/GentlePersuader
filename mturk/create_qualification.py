@@ -48,6 +48,10 @@ qual_response = client.create_qualification_type(
     TestDurationInSeconds=120  #ample time, really
 )
 
+#might need some of the info like create timestamp
+with open('data/qual_response.pickle', 'wb') as f:
+    pickle.dump(qual_response, f)
+
 #extract the qualificationTypeId for use in generating the HITs
 qualification_type_id = qual_response['QualificationType']['QualificationTypeId']
 
