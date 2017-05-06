@@ -1,0 +1,6 @@
+This directory contains all of the code used to interact with Twitter:
+1. streaming filter to select one of six emoji
+2. analysis of returned information
+3. status updating
+4. retrieval of target users tweets
+5. parsing of tweets in preparation for analysis
